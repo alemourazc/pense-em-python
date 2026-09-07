@@ -56,7 +56,7 @@ Abaixo está o índice completo da 3ª Edição para acompanhamento do progresso
 - [x] **Capítulo 1:** Programação como uma forma de pensar
 - [x] **Capítulo 2:** Variáveis e instruções
 - [x] **Capítulo 3:** Funções
-- [ ] **Capítulo 4:** Funções e interfaces
+- [x] **Capítulo 4:** Funções e interfaces
 - [ ] **Capítulo 5:** Condicionais e recursão
 - [ ] **Capítulo 6:** Valores de retorno
 - [ ] **Capítulo 7:** Iteração e busca
