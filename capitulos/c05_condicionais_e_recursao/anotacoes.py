@@ -71,5 +71,6 @@ def divisao_inteira_e_modulo():
 
 if __name__ == "__main__":
     # Tire o '#' apenas da função que deseja testar
+
     # divisao_inteira_e_modulo()
     pass
