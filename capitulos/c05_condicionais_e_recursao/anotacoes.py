@@ -69,8 +69,54 @@ def divisao_inteira_e_modulo():
     print(a, b)
 
 
+def expressoes_booleanas():
+    """
+    Demonstra o uso de expressões booleanas e operadores relacionais.
+    """
+    print("--- Expressões Booleanas ---\n")
+    print(
+        "Uma 'expressão booleana' é aquela que pode ser verdadeira ou falsa. "
+        "Por exemplo, as expressões a seguir utilizam o operador de igualdade"
+        ", '==', que compara dois valores e retorna 'True' (verdadeiro) se "
+        "forem iguais, e 'False' (falso) se não forem:"
+    )
+    print()
+    print(5 == 5)  # True
+    print(5 == 7)  # False
+    print()
+    print(
+        "Um erro comum é utilizar apenas um sinal de igual (=) em vez do "
+        "sinal duplo (==). É importante ressaltar que '=' é utilizado para "
+        "atribuir um valor a uma variável, enquanto '==' é utilizado para "
+        "comparar dois valores:"
+    )
+    print()
+    x = 5
+    y = 7
+    print(x == y)  # False
+    print()
+    print(
+        "'True' e 'False' são valores especiais do tipo 'bool' (booleano). "
+        "Eles não são strings:"
+    )
+    print()
+    print(type(True))  # <class 'bool'>
+    print(type(False))  # <class 'bool'>
+    print()
+    print(
+        "O operador '==' é um dos 'operadores relacionais'; os outros são:"
+    )
+    print()
+    print(x != y)  # x não é igual a y (True)
+    print(x > y)  # x é maior que y (False)
+    print(x < y)  # x é menor que y (True)
+    print(x >= y)  # x é maior ou igual a y (False)
+    print(x <= y)  # x é menor ou igual a y (True)
+
+
 if __name__ == "__main__":
     # Tire o '#' apenas da função que deseja testar
 
     # divisao_inteira_e_modulo()
+    # expressoes_booleanas()
     pass
