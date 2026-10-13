@@ -159,10 +159,57 @@ def operadores_logicos():
     )
 
 
+def instrucoes_if():
+    """
+    Demonstra o uso de instruções condicionais if e a instrução pass.
+    """
+    print("--- Instruções If ---\n")
+    print(
+        "Para desenvolver programas úteis, quase sempre precisamos verificar "
+        "condições e ajustar o comportamento do programa conforme necessário. "
+        "'Instruções condicionais' nos permitem fazer isso. A forma mais "
+        "básica é a instrução if:"
+    )
+    print()
+    x = 5
+    if x > 0:
+        print("x is positive")
+    print()
+    print(
+        "'if' é uma palavra reservada em Python. As instruções if seguem a "
+        "mesma estrutura das definições de função: um cabeçalho, seguido "
+        "por uma instrução indentada ou uma sequência de instruções, "
+        "conhecida como 'bloco'."
+    )
+    print()
+    print(
+        "A expressão booleana que vem após o 'if' é chamada de 'condição'. "
+        "Se a condição for verdadeira, as instruções dentro do bloco "
+        "indentado serão executadas. Caso contrário, não serão executadas."
+    )
+    print()
+    print(
+        "Não há um limite para a quantidade de instruções que podem ser "
+        "incluídas no bloco, mas deve haver pelo menos uma. Em algumas "
+        "situações, é útil ter um bloco sem nenhuma instrução -- geralmente "
+        "como um espaço reservado para código que ainda será implementado. "
+        "Nesse caso, podemos utilizar a instrução 'pass', que não executa "
+        "nenhuma ação:"
+    )
+    if x < 0:
+        pass  # TODO: precisa tratar valores negativos!
+    print()
+    print(
+        "A palavra 'TODO' em um comentário é uma convenção utilizada como "
+        "lembrete de que há algo que precisa ser feito mais tarde."
+    )
+
+
 if __name__ == "__main__":
     # Tire o '#' apenas da função que deseja testar
 
     # divisao_inteira_e_modulo()
     # expressoes_booleanas()
     # operadores_logicos()
+    # instrucoes_if()
     pass
