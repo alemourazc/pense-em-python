@@ -114,9 +114,55 @@ def expressoes_booleanas():
     print(x <= y)  # x é menor ou igual a y (True)
 
 
+def operadores_logicos():
+    """
+    Demonstra o uso dos operadores lógicos (and, or, not).
+    """
+    print("--- Operadores Lógicos ---\n")
+    print(
+        "Para combinar valores booleanos em expressões, podemos utilizar "
+        "'operadores lógicos'. Os mais comuns são 'and', 'or' e 'not'. O "
+        "significado desses operadores é similar aos seus correspondentes "
+        "em inglês. Por exemplo, a expressão a seguir será 'True' apenas se "
+        "'x' for maior que '0' e menor que '10':"
+    )
+    print()
+    x = 5
+    y = 7
+    print(x > 0 and x < 10)  # True
+    print()
+    print(
+        "A expressão a seguir será 'True' se uma ou ambas as condições forem "
+        "verdadeiras, ou seja, se o número for divisível por 2 ou por 3:"
+    )
+    print()
+    print(x % 2 == 0 or x % 3 == 0)  # False
+    print()
+    print(
+        "Por fim, o operador 'not' inverte o valor de uma expressão booleana; "
+        "portanto, a expressão a seguir será 'True' se 'x > y' for False:"
+    )
+    print()
+    print(not x > y)  # True
+    print()
+    print(
+        "Tecnicamente, os operandos dos operadores lógicos deveriam ser "
+        "expressões booleanas, mas o Python é bastante flexível. Qualquer "
+        "número diferente de zero é interpretado como True:"
+    )
+    print()
+    print(42 and True)  # True
+    print()
+    print(
+        "Essa flexibilidade pode ser útil, mas há algumas sutilezas que podem "
+        "causar confusão. Pode ser mais prudente evitá-la."
+    )
+
+
 if __name__ == "__main__":
     # Tire o '#' apenas da função que deseja testar
 
     # divisao_inteira_e_modulo()
     # expressoes_booleanas()
+    # operadores_logicos()
     pass
