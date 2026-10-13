@@ -205,6 +205,42 @@ def instrucoes_if():
     )
 
 
+def clausula_else():
+    """
+    Demonstra o uso da cláusula else em instruções condicionais.
+    """
+    print("--- Cláusula Else ---\n")
+    print(
+        "Uma instrução 'if' pode incluir uma segunda parte, conhecida como "
+        "cláusula 'else'. A sintaxe se parece com a seguinte:"
+    )
+    print()
+    x = 5
+    if x % 2 == 0:
+        print("x is even")
+    else:
+        print("x is odd")
+    print()
+    print(
+        "Se a condição for verdadeira, a primeira instrução indentada será "
+        "executada; caso contrário, a segunda instrução indentada será "
+        "executada."
+    )
+    print()
+    print(
+        "Neste exemplo, se 'x' for um número par, o resto da divisão de 'x' "
+        "por '2' será '0', o que torna a condição verdadeira e faz com que o "
+        "programa exiba 'x is even'. Se 'x' for um número ímpar, o resto será "
+        "'1', tornando a condição falsa, e o programa exibirá 'x is odd'."
+    )
+    print()
+    print(
+        "Como a condição deve ser verdadeira ou falsa, apenas uma das "
+        "alternativas será executada. Essas alternativas são conhecidas como "
+        "'ramificações'."
+    )
+
+
 if __name__ == "__main__":
     # Tire o '#' apenas da função que deseja testar
 
@@ -212,4 +248,5 @@ if __name__ == "__main__":
     # expressoes_booleanas()
     # operadores_logicos()
     # instrucoes_if()
+    # clausula_else()
     pass
