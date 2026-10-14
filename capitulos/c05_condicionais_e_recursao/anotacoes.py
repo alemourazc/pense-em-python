@@ -241,6 +241,43 @@ def clausula_else():
     )
 
 
+def condicionais_encadeadas():
+    """
+    Demonstra o uso de condicionais encadeadas com elif.
+    """
+    print("--- Condicionais Encadeadas ---\n")
+    print(
+        "Às vezes, existem mais de duas possibilidades, e precisamos de mais "
+        "do que apenas duas ramificações. Uma maneira de lidar com isso é "
+        "utilizando uma 'condicional encadeada', que inclui uma cláusula "
+        "'elif':"
+    )
+    print()
+    x = 5
+    y = 7
+    if x < y:
+        print("x is less than y")
+    elif x > y:
+        print("x is greater than y")
+    else:
+        print("x and y are equal")
+    print()
+    print(
+        "'elif' é uma abreviação de 'else if'. Não há limite para o número de "
+        "instruções 'elif' que podem ser utilizadas. Se houver uma cláusula "
+        "'else', ela deve estar no final, mas não é obrigatório incluí-la."
+    )
+    print()
+    print(
+        "As condições são verificadas na ordem que aparecem. Se a primeira "
+        "for falsa, a próxima será avaliada, e assim sucessivamente. Se uma "
+        "das condições for verdadeira, a ramificação correspondente é "
+        "executada e a instrução 'if' é encerrada. Mesmo que mais de uma "
+        "condição seja verdadeira, apenas a primeira ramificação verdadeira "
+        "será executada."
+    )
+
+
 if __name__ == "__main__":
     # Tire o '#' apenas da função que deseja testar
 
@@ -249,4 +286,5 @@ if __name__ == "__main__":
     # operadores_logicos()
     # instrucoes_if()
     # clausula_else()
+    # condicionais_encadeadas()
     pass
